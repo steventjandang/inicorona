@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Indonesia"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Cases"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:background="#3EAFE3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Recovered"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:background="#5AC18E"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Deaths"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:background="#F57576"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:background="#F0F8FF"
+                android:id="@+id/total_cases"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:background="#F0F8FF"
+                android:id="@+id/total_recovered"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:background="#F0F8FF"
+                android:id="@+id/total_deaths"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daily"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Cases"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:background="#3EAFE3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Recovered"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:background="#5AC18E"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Deaths"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:background="#F57576"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:background="#F0F8FF"
+                android:id="@+id/daily_cases"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:background="#F0F8FF"
+                android:id="@+id/daily_recovered"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:background="#F0F8FF"
+                android:id="@+id/daily_deaths"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
